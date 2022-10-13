@@ -1,0 +1,40 @@
+{
+  "name": "wysiwyg",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "wysiwyg",
+    "description": "Description of wysiwyg plugin",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "@progress/kendo-drawing": "^1.16.3",
+    "@progress/kendo-licensing": "^1.2.2",
+    "@progress/kendo-react-animation": "^5.2.0",
+    "@progress/kendo-react-buttons": "^5.2.0",
+    "@progress/kendo-react-dialogs": "^5.2.0",
+    "@progress/kendo-react-dropdowns": "^5.2.0",
+    "@progress/kendo-react-editor": "^5.2.0",
+    "@progress/kendo-react-inputs": "^5.2.0",
+    "@progress/kendo-react-intl": "^5.2.0",
+    "@progress/kendo-react-layout": "^5.2.0",
+    "@progress/kendo-react-pdf": "^5.2.0",
+    "@progress/kendo-react-popup": "^5.2.0",
+    "@progress/kendo-react-progressbars": "^5.2.0",
+    "@progress/kendo-react-treeview": "^5.2.0",
+    "@progress/kendo-theme-default": "^5.4.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x. <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
