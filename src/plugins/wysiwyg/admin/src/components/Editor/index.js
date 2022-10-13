@@ -80,10 +80,10 @@ const EditorComponent = ({ onChange, name, value }) => {
     const doc = EditorUtils.createDocument(mySchema, value);
 
     //custom style
-    // const iframeDocument = event.dom.ownerDocument;
-    // const style = iframeDocument.createElement("style");
-    // style.appendChild(iframeDocument.createTextNode(styles));
-    // iframeDocument.head.appendChild(style);
+    const iframeDocument = event.dom.ownerDocument;
+    const style = iframeDocument.createElement("style");
+    style.appendChild(iframeDocument.createTextNode(styles));
+    iframeDocument.head.appendChild(style);
 
     // Return the custom EditorView object that will be used by Editor.
     return new EditorView(
