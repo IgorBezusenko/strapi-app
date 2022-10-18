@@ -59,6 +59,8 @@ const EditorComponent = ({ onChange, name, value }) => {
     EditorUtils.createDocument(mySchema, value)
   );
 
+  console.log({ onChange, name, value })
+
   const onEditorStateChange = (event) => {
     setEditorState(event.value);
     onChange({ target: { name, value: event.html } });
