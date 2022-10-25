@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_menu_123s",
+  "info": {
+    "displayName": "123",
+    "icon": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    }
+  }
+}

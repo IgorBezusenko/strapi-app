@@ -19,23 +19,16 @@
       "type": "richtext",
       "required": true
     },
-    "slug": {
-      "type": "uid",
-      "required": true
-    },
     "description": {
       "type": "text"
     },
-    "img": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "slug": {
+      "type": "uid"
+    },
+    "slug_url": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.123"
     }
   }
 }
